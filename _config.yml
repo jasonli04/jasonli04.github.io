@@ -23,7 +23,7 @@ repository               : "jasonli04/jasonli04.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/jason_headshot.jpeg"
   name             : "Jason Li"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
