@@ -11,7 +11,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download PDF]({{ base_path }}/files/Jason_Li_Resume.pdf){:target="_blank" rel="noopener"}
+[Open Resume in New Window]({{ base_path }}/files/Jason_Li_Resume.pdf){:target="_blank" rel="noopener"}
 
 <iframe
   src="{{ base_path }}/files/Jason_Li_Resume.pdf"
