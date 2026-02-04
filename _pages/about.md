@@ -13,4 +13,4 @@ I am a current 4th year student at Georgia Tech, pursuing my Bachelor's in Compu
 
 Post graduation, I’ll be joining Old Mission Capital as a Junior Quantitative Trader, where I'm excited to tackle problems at the intersection of markets and technology.
 
-Outside of the classroom, I enjoy playing chess, a game I grew up playing competetively, and have led the Georgia Tech Chess Club as president from 2023-2025. Additionally, I enjoy playing poker and sports such as tennis and basketball.
+Outside of the classroom, I enjoy playing chess, a game I grew up playing competetively, and led the Georgia Tech Chess Club as president from 2023-2025. Additionally, I enjoy playing poker and sports such as tennis and basketball.
