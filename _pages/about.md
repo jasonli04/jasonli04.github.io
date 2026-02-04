@@ -15,4 +15,4 @@ Post graduation, I’ll be joining Old Mission Capital as a Junior Quantitative 
 
 Outside of the classroom, I enjoy playing chess, a game I grew up playing competetively, and led the Georgia Tech Chess Club as president from 2023-2025. Additionally, I enjoy playing poker and sports such as tennis and basketball.
 
-Feel free to connect with me on <a href="https://www.linkedin.com/in/jasonli04/"> Linkedin </a>!
+Feel free to connect with me on <a href="https://www.linkedin.com/in/jasonli04/"> Linkedin</a>!
