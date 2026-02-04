@@ -9,7 +9,7 @@ redirect_from:
 
 Hi, I'm Jason!
 
-I am a current 4th year student at Georgia Tech, pursuing my Bachelor's in Computer Science, with concentrations in Intelligence and Theory along with a minor in Economics. Some fields that specifically interest me are Machine Learning and its applications, Game Theory, Quantitative Finance, and building scalable systems. Through internships, I have been able to gain experience and hone my skillset by building NLP models, cloud infrastructure, and data platforms that support real-world applications.
+I am a current 4th year student at Georgia Tech, pursuing my Bachelor's in Computer Science, with concentrations in Intelligence and Theory along with a minor in Economics. Some fields that specifically interest me are Machine Learning, Algorithms, Game Theory, and Quantitative Finance. Through internships, I have been able to gain experience and hone my skillset by building NLP models, cloud infrastructure, and data platforms that support real-world applications.
 
 Post graduation, I’ll be joining Old Mission Capital as a Junior Quantitative Trader, where I'm excited to tackle problems at the intersection of markets and technology.
 
