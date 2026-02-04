@@ -8,7 +8,23 @@ author_profile: true
 {% include base_path %}
 
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign projects = site.data.projects %}
+{% if projects and projects.size > 0 %}
+<ul class="archive__list">
+  {% for project in projects %}
+  <li class="archive__item">
+    <h2 class="archive__item-title">
+      <a href="{{ project.url }}" target="_blank" rel="noopener">
+        {{ project.title }}
+      </a>
+    </h2>
+    {% if project.blurb %}
+    <p class="archive__item-excerpt">{{ project.blurb }}</p>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>Add projects in <code>_data/projects.yml</code>.</p>
+{% endif %}
 
