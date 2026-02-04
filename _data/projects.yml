@@ -1,6 +1,6 @@
 # Add items below. Each item needs a title, blurb, url, and optional images.
 - title: "Monte Carlo Options Visualizer"
-  blurb: "Short description of the project."
+  blurb: "Built an app to visualize European option pricing using Geometric Brownian Motion Monte Carlo simulations. This tool provides an interactive interface for exploring option pricing and risk metrics through both theoretical calculations and Monte Carlo simulations."
   url: "https://black-scholes-options-visualizer.streamlit.app/"
   images:
     - "/images/monte_1.png"
