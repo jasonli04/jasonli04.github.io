@@ -18,6 +18,21 @@ author_profile: true
         {{ project.title }}
       </a>
     </h2>
+    {% if project.images and project.images.size > 0 %}
+    <div class="archive__item-teaser">
+      {% for image in project.images %}
+      <a href="{{ project.url }}" target="_blank" rel="noopener">
+        <img src="{{ base_path }}{{ image }}" alt="{{ project.title }}">
+      </a>
+      {% endfor %}
+    </div>
+    {% elsif project.image %}
+    <p class="archive__item-teaser">
+      <a href="{{ project.url }}" target="_blank" rel="noopener">
+        <img src="{{ base_path }}{{ project.image }}" alt="{{ project.title }}">
+      </a>
+    </p>
+    {% endif %}
     {% if project.blurb %}
     <p class="archive__item-excerpt">{{ project.blurb }}</p>
     {% endif %}

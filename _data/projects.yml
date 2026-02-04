@@ -1,5 +1,9 @@
-# Add items below. Each item needs a title, blurb, and url.
+# Add items below. Each item needs a title, blurb, url, and optional images.
 # - title: "Project Name"
 #   blurb: "Short description of the project."
 #   url: "https://github.com/username/repo"
+#   image: "/images/your-image.png"
+#   images:
+#     - "/images/your-image-1.png"
+#     - "/images/your-image-2.png"
 []
