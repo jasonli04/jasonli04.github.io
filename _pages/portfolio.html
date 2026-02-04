@@ -10,16 +10,18 @@ author_profile: true
 
 {% assign projects = site.data.projects %}
 {% if projects and projects.size > 0 %}
-<ul class="archive__list">
   {% for project in projects %}
-  <li class="archive__item">
-    <h2 class="archive__item-title">
+  <section class="project-item">
+    <h2>
       <a href="{{ project.url }}" target="_blank" rel="noopener">
         {{ project.title }}
       </a>
     </h2>
+    {% if project.blurb %}
+    <p>{{ project.blurb }}</p>
+    {% endif %}
     {% if project.images and project.images.size > 0 %}
-    <div class="archive__item-teaser">
+    <div class="project-images">
       {% for image in project.images %}
       <a href="{{ project.url }}" target="_blank" rel="noopener">
         <img src="{{ base_path }}{{ image }}" alt="{{ project.title }}">
@@ -27,18 +29,14 @@ author_profile: true
       {% endfor %}
     </div>
     {% elsif project.image %}
-    <p class="archive__item-teaser">
+    <div class="project-images">
       <a href="{{ project.url }}" target="_blank" rel="noopener">
         <img src="{{ base_path }}{{ project.image }}" alt="{{ project.title }}">
       </a>
-    </p>
+    </div>
     {% endif %}
-    {% if project.blurb %}
-    <p class="archive__item-excerpt">{{ project.blurb }}</p>
-    {% endif %}
-  </li>
+  </section>
   {% endfor %}
-</ul>
 {% else %}
 <p>Add projects in <code>_data/projects.yml</code>.</p>
 {% endif %}
