@@ -2,7 +2,8 @@
 - title: "Monte Carlo Options Visualizer"
   blurb: "Short description of the project."
   url: "https://black-scholes-options-visualizer.streamlit.app/"
-  image: "/images/your-image.png"
   images:
-    - "/images/your-image-1.png"
-    - "/images/your-image-2.png"
+    - "/images/monte_1.png"
+    - "/images/monte_2.png"
+    - "/images/monte_3.png"
+    - "/images/monte_4.png"
