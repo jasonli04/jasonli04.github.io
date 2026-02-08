@@ -7,3 +7,9 @@
     - "/images/monte_2.png"
     - "/images/monte_3.png"
     - "/images/monte_4.png"
+
+- title: "Hybrid Machine Learning for Gold Price Forecasting"
+  blurb: "Built a hybrid machine learning pipeline to model and forecast gold price dynamics using macroeconomic indicators and financial time-series data. Integrated Ridge Regression, Neural Networks, Random Forests, and K-Means clustering to analyze nonlinear market behavior, engineer technical signals, and identify volatility regimes."
+  url: : "https://github.gatech.edu/pages/jli3317/Gold-Price-Forecasting/"
+  images:
+    - "/images/neural_net_prediction.png"
