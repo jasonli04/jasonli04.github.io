@@ -24,14 +24,14 @@ author_profile: true
     <div class="project-images">
       {% for image in project.images %}
       <a href="{{ project.url }}" target="_blank" rel="noopener">
-        <img src="{{ base_path }}{{ image }}" alt="{{ project.title }}">
+        <img src="{{ base_path }}{{ image }}" alt="{{ project.title }}" style="width: 60%; max-width: 100%; height: auto;">
       </a>
       {% endfor %}
     </div>
     {% elsif project.image %}
     <div class="project-images">
       <a href="{{ project.url }}" target="_blank" rel="noopener">
-        <img src="{{ base_path }}{{ project.image }}" alt="{{ project.title }}">
+        <img src="{{ base_path }}{{ project.image }}" alt="{{ project.title }}" style="width: 60%; max-width: 100%; height: auto;">
       </a>
     </div>
     {% endif %}
