@@ -8,9 +8,14 @@ author_profile: true
 <div class="experience-item">
   <div class="experience-header">
     <img class="experience-logo" src="{{ base_path }}/images/amazon.png" alt="Amazon logo">
-    <div>
-      <strong>Amazon</strong> — Software Development Engineer Intern<br>
-      <span>Bellevue, WA</span> · <span>Aug 2025 – Nov 2025</span>
+    <div class="experience-meta">
+      <div class="experience-title">
+        <strong>Amazon</strong> — Software Development Engineer Intern
+      </div>
+      <div class="experience-subtitle">
+        <span>Bellevue, WA</span>
+        <span class="experience-dates">Aug 2025 – Nov 2025</span>
+      </div>
     </div>
   </div>
   <ul>
@@ -22,9 +27,14 @@ author_profile: true
 <div class="experience-item">
   <div class="experience-header">
     <img class="experience-logo" src="{{ base_path }}/images/citco.png" alt="Citco logo">
-    <div>
-      <strong>Citco</strong> — Software Engineering Intern<br>
-      <span>Jersey City, NJ</span> · <span>June 2025 – Aug 2025</span>
+    <div class="experience-meta">
+      <div class="experience-title">
+        <strong>Citco</strong> — Software Engineering Intern
+      </div>
+      <div class="experience-subtitle">
+        <span>Jersey City, NJ</span>
+        <span class="experience-dates">June 2025 – Aug 2025</span>
+      </div>
     </div>
   </div>
   <ul>
@@ -36,9 +46,14 @@ author_profile: true
 <div class="experience-item">
   <div class="experience-header">
     <img class="experience-logo" src="{{ base_path }}/images/gtri.png" alt="Georgia Tech Research Institute logo">
-    <div>
-      <strong>Georgia Tech Research Institute</strong> — Software Engineering Intern<br>
-      <span>Atlanta, GA</span> · <span>June 2024 – Aug 2024</span>
+    <div class="experience-meta">
+      <div class="experience-title">
+        <strong>Georgia Tech Research Institute</strong> — Software Engineering Intern
+      </div>
+      <div class="experience-subtitle">
+        <span>Atlanta, GA</span>
+        <span class="experience-dates">June 2024 – Aug 2024</span>
+      </div>
     </div>
   </div>
   <ul>

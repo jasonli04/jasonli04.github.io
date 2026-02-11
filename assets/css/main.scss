@@ -54,6 +54,22 @@
   margin-bottom: 0.5rem;
 }
 
+.experience-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.experience-subtitle {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.experience-dates {
+  white-space: nowrap;
+  margin-left: auto;
+}
+
 .experience-logo {
   width: 44px;
   height: 44px;
