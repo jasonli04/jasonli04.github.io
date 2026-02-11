@@ -7,7 +7,7 @@ author_profile: true
 
 <div class="experience-item">
   <div class="experience-header">
-    <img class="experience-logo" src="{{ base_path }}/images/amazon.png" alt="Amazon logo">
+    <img class="experience-logo" src="{{ base_path }}/images/zon.jpeg" alt="Amazon logo">
     <div class="experience-meta">
       <div class="experience-title">
         <strong>Amazon</strong> — Software Development Engineer Intern
@@ -26,7 +26,7 @@ author_profile: true
 
 <div class="experience-item">
   <div class="experience-header">
-    <img class="experience-logo" src="{{ base_path }}/images/citco.png" alt="Citco logo">
+    <img class="experience-logo" src="{{ base_path }}/images/citco.jpeg" alt="Citco logo">
     <div class="experience-meta">
       <div class="experience-title">
         <strong>Citco</strong> — Software Engineering Intern
@@ -45,7 +45,7 @@ author_profile: true
 
 <div class="experience-item">
   <div class="experience-header">
-    <img class="experience-logo" src="{{ base_path }}/images/gtri.png" alt="Georgia Tech Research Institute logo">
+    <img class="experience-logo" src="{{ base_path }}/images/gtri.jpeg" alt="Georgia Tech Research Institute logo">
     <div class="experience-meta">
       <div class="experience-title">
         <strong>Georgia Tech Research Institute</strong> — Software Engineering Intern
