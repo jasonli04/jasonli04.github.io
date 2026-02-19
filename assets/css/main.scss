@@ -94,5 +94,14 @@
 }
 
 .project-skill {
+  display: inline-block;
   font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.15rem 0.5rem;
+  margin: 0 0.35rem 0.35rem 0;
+  background: #f2f4f7;
+  color: #333;
+  border: 1px solid #e1e4e8;
+  border-radius: 999px;
+  white-space: nowrap;
 }
