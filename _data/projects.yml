@@ -1,4 +1,4 @@
-# Add items below. Each item needs a title, blurb, url, and optional images.
+# Add items below. Each item needs a title, blurb, url, and optional images/skills.
 - title: "Monte Carlo Options Visualizer"
   blurb: "Built an app to visualize European option pricing using Geometric Brownian Motion Monte Carlo simulations. This tool provides an interactive interface for exploring option pricing and risk metrics through both theoretical calculations and Monte Carlo simulations."
   url: "https://black-scholes-options-visualizer.streamlit.app/"
@@ -7,9 +7,18 @@
     - "/images/monte_2.png"
     - "/images/monte_3.png"
     - "/images/monte_4.png"
+  skills:
+    - "Python"
+    - "NumPy"
+    - "Monte Carlo Simulations"
 
 - title: "Hybrid Machine Learning for Gold Price Forecasting"
   blurb: "Together, with a team, built a hybrid machine learning pipeline to model and forecast gold price dynamics using macroeconomic indicators and financial time-series data. Integrated Ridge Regression, Neural Networks, Random Forests, and K-Means clustering to analyze nonlinear market behavior, engineer technical signals, and identify volatility regimes."
   url: "https://jasonli04.github.io/Gold-Price-Forecasting/"
   images:
     - "/images/neural_net_prediction.png"
+  skills:
+    - "Machine Learning"
+    - "Scikit-Learn"
+    - "TensorFlow"
+    - "Time Series Analysis"
