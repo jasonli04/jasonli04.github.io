@@ -21,12 +21,11 @@ author_profile: true
     <p>{{ project.blurb }}</p>
     {% endif %}
     {% if project.skills and project.skills.size > 0 %}
-    <p class="project-skills">
-      <strong>Skills:</strong>
+    <div class="project-skills">
       {% for skill in project.skills %}
-        <span class="project-skill">{{ skill }}</span>{% unless forloop.last %}, {% endunless %}
+        <span class="project-skill">{{ skill }}</span>
       {% endfor %}
-    </p>
+    </div>
     {% endif %}
     {% if project.images and project.images.size > 0 %}
     <div class="project-images">
