@@ -52,7 +52,7 @@
   box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
 }
 
-.experience-summary {
+.experience-card > summary.experience-summary {
   list-style: none;
   display: flex;
   align-items: flex-start;
@@ -64,15 +64,15 @@
   padding-right: 2.5rem;
 }
 
-.experience-summary::-webkit-details-marker {
+.experience-card > summary.experience-summary::-webkit-details-marker {
   display: none;
 }
 
-.experience-summary::marker {
+.experience-card > summary.experience-summary::marker {
   content: "";
 }
 
-.experience-summary::after {
+.experience-card > summary.experience-summary::after {
   content: "▾";
   position: absolute;
   top: 1.1rem;
@@ -81,7 +81,7 @@
   color: #667085;
 }
 
-.experience-card[open] .experience-summary::after {
+.experience-card[open] > summary.experience-summary::after {
   content: "▴";
 }
 
