@@ -17,6 +17,7 @@ author_profile: true
         <span class="experience-dates">Aug 2025 – Nov 2025</span>
       </div>
     </div>
+    <span class="experience-chevron" aria-hidden="true"></span>
   </summary>
   <div class="experience-body">
     <ul>
@@ -38,6 +39,7 @@ author_profile: true
         <span class="experience-dates">June 2025 – Aug 2025</span>
       </div>
     </div>
+    <span class="experience-chevron" aria-hidden="true"></span>
   </summary>
   <div class="experience-body">
     <ul>
@@ -59,6 +61,7 @@ author_profile: true
         <span class="experience-dates">June 2024 – Aug 2024</span>
       </div>
     </div>
+    <span class="experience-chevron" aria-hidden="true"></span>
   </summary>
   <div class="experience-body">
     <ul>
