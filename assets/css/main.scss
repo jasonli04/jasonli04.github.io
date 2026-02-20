@@ -44,6 +44,7 @@
 
 /* Experience page */
 .experience-card {
+  display: block;
   margin: 0 0 1.5rem 0;
   border: 1px solid #e6e8eb;
   border-radius: 10px;
@@ -59,10 +60,16 @@
   padding: 1.1rem 1.25rem;
   cursor: pointer;
   position: relative;
+  width: 100%;
+  padding-right: 2.5rem;
 }
 
 .experience-summary::-webkit-details-marker {
   display: none;
+}
+
+.experience-summary::marker {
+  content: "";
 }
 
 .experience-summary::after {
